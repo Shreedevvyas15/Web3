@@ -13,6 +13,87 @@
   <link rel="stylesheet" href="style.css"/> 
 </head>
 <body>
+    
+  <!---------------NavBar--------------->
+  <nav class="navbar">
+    <div class="navbar-center">
+      <span class="nav-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+     <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGnhrSs9Jh45KXFBc9vVBp4GEXwCC7TfRFA&usqp=CAU" alt="store logo"/>-->
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+         </span>
+         <div class="cart-items"> </div> 
+      </div>
+    </div>  
+  </nav>    
+  <!---------------EndNavBar------------>
+  <!---------------Hero------------------->
+  <header class="hero">
+    <div class="banner">
+      <h1 class="banner-title">furniture collection</h1>
+      <button class="banner-btn">shop now</button>
+    </div>
+
+  </header>
+
+  <!---------------End  of Hero----------->
+  <!-------------Prodct----------------->
+  <scetion class="products">
+    <div class="section-title">
+      <h2>our product</h2>
+    </div>
+    <div class="product-center">
+       <!------  Single product--------->
+        <div class="article">
+          <div class="img-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa21IpYyqdqTJx-TuH6BMJKTJqUdZIYodp3Q&usqp=CAU" alt="product" class="product-img"/>
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>queen bed</h3>
+          <h4>$ 16</h4>
+        </div>
+       <!-------end single product-->
+    </div>
+  </scetion>
+
+  <!----------------End of the product-->
+  <!---------------Cart------------------>
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>your cart</h2>
+      <div class="cart-content">
+        <!-----cart item-------->
+        <div class="cart-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa21IpYyqdqTJx-TuH6BMJKTJqUdZIYodp3Q&usqp=CAU" alt="product"/> 
+          <div>
+             <h4>queen bed</h4>
+             <h5>$9.00</h5>
+             <span class="remove-item">remove</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up"></i>
+            <p class="item-amount">1</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+        <!-------cart item end----->
+      </div>
+      <div class="cart-footer">
+        <h3>your total : $ <span class="cart-total">0</span></h3>
+        <button class="clear-cart banner-btn">clear cart</button>
+      </div>
+    </div>
+  </div>
+  <!------------End of the cart----------->
   <h1>Hello</h1>
 <script src="app.js"></script  
 </body>
